@@ -4,7 +4,7 @@ import pandas as pd
 gamma = 2
 k = 3
 
-c = pd.read_csv("/Users/hERO/Documents/CS/Machine Learning/secondTime/MLTimeseriesProject/Datasets/PNoz.csv")
+c = pd.read_csv("../Datasets/PNoz.csv")
 c = np.array(c)
 c = c[:,1]
 
